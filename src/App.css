@@ -1,0 +1,149 @@
+img {
+    width: 100%;
+    height: 100%;
+}
+body {
+    font-family: sans-serif;
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+}
+* {
+    margin: auto;
+}
+.App {
+    position: absolute;
+    z-index: 1;
+}
+.Navbar {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+    padding: 4em;
+    font-size: 1.2em;
+}
+ul {
+    gap: 2em;
+    display: flex;
+    list-style: none;
+}
+li {
+    list-decoration: none;
+    text-shadow: 1px 1px 2px rgb(0,0,0,0.5);
+}
+li:hover {
+    cursor: pointer;
+    color:rgba(255, 255, 255, 0.83);
+}
+.logo {
+    font-weight: bold;
+    cursor: pointer;
+}
+.logo:hover {
+    color:rgba(255, 255, 255, 0.83);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+    position: absolute;
+    z-index: 2;
+    padding: 5em;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.credit, .social-media, .add-menu {
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+.social-media {
+    display: flex;
+    gap: 1em;
+}
+a {
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+a:hover {
+    color:rgba(255, 255, 255, 0.64);
+}
+.Countdown {
+    background: linear-gradient(45deg,rgba(255, 255, 255, 0.85), rgba(78, 94, 142, 0.37));
+    position: relative;
+    z-index: 2;
+    padding: 2em 4em;
+    margin: 0 auto;
+    color: #323c59;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    border: 0.2px solid #ffffff;
+}
+.title {
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+}
+.clock {
+    display: flex;
+    gap: 0.1em;
+    align-items: center;
+    font-weight: bold;
+    font-size: 4em;
+}
+.clock div {
+    background: linear-gradient(45deg,rgba(255, 255, 255, 0.85), rgba(99, 120, 185, 0.11));
+    padding: 0.6em;
+    margin: 0.5em;
+    align-items: center;
+}
+.Reminder {
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    font-size: 0.8em;
+    gap: 4em;
+    background:rgba(255, 255, 255, 0.28);
+    padding: 2em 4em;
+    top: 61.7vh;
+    left: 22vw;
+    right: 22vw;
+    border: 0.2px solid #ffffff;
+}
+.description {
+    width: 40em;
+}
+.box-reminder {
+    display: flex;
+    width: fit-content;
+    background: #66b8b2;
+    padding: 1em 2em;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(0,0,0,0.2);
+    gap: 1em;
+    color:  #323c59;
+    justify-content: space-around;
+}
+.box-reminder:hover {
+    background:rgb(87, 176, 172);
+    cursor: pointer;
+}
+.lonceng {
+    width: 2em;
+    display: hidden;
+}
+.text-lonceng {
+    width: 6em;
+}
+.sub-title {
+    font-size: 1em;
+}
